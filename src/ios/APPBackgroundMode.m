@@ -155,7 +155,7 @@ NSString* const kAPPBackgroundEventDeactivate = @"deactivate";
     audioPlayer = [[AVAudioPlayer alloc]
                    initWithContentsOfURL:url error:NULL];
 
-    audioPlayer.volume        = 0;
+    audioPlayer.volume        = 5;
     audioPlayer.numberOfLoops = -1;
 };
 
