@@ -208,7 +208,7 @@ NSString* const kAPPBackgroundEventDeactivate = @"deactivate";
  */
 + (BOOL) isRunningWebKit
 {
-    return IsAtLeastiOSVersion(@"8.0") && NSClassFromString(@"CDVWKWebViewEngine");
+    return NO;
 }
 
 /**
